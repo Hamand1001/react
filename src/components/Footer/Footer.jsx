@@ -1,6 +1,5 @@
-import './Header.css'
-import {Link} from 'react-router-dom'
-export default function Header(){
+import './Footer.css'
+export default function Footer(){
     return (
         <>
         <header>
@@ -8,7 +7,7 @@ export default function Header(){
                 <li><b><a href="" className="link">Azbuka Fkusa</a></b></li>
                 |
                 <li><a href="" className="link">Главная</a></li>
-                <Link to="/catalog">Каталог</Link>
+                <li><a href="" className="link">Каталог</a></li>
                 |
                 <li><a href="" className="link">Инофрмация</a></li>
             </ul>
