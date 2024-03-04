@@ -1,0 +1,26 @@
+header{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.link{
+    color: black;
+    font-size: 18px;
+
+}
+.button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
